@@ -1,0 +1,79 @@
+File New -> Other
+Maven - Maven Project -> Next
+Create a simple project .... -> Next
+Group Id: com.taynarodrigues
+Artifact id: <nome do projeto>
+Finish
+
+src/test/java-> New Package
+Name: exercicio1 -> finish
+exercicio -> New Class -> MeuPrimeiroTest -> Finish
+
+	Programação Básica
+
+*Classe->Descrição de um grupo de objetos
+**EXEMPLO**
+-Nome da classe: Cachorro
+-Atributo: nome da raça; peso; altura
+-Método: comportamento canino-> brincar; comer; dormir; treinar e ter fihotes são verbos, ação...
+--Métodos são comportamento que definem tal classe
+--O objeto será a instância da classe
+--A classe à descrição.
+
+*Herança
+-> Permite reutilização da estrutura e do comportamento de uma classe
+
+	-Todos tem caracteristicas comuns:
+
+		Animal: Mamífero e Reptil
+		-Mamifero Felino: Tigre e Gato
+		-Mamífero Canino: Lobo e Cachorro
+		-Reptil: Cobra
+
+*Polimorfismo
+-> Habilidade de variáveis terem "mais de um tipo"
+Ex: o cachorro late, gato mia, vaca berra, lobo ruiva... eles tem um comportamento: emitir som.
+
+*O que é Variável?
+->Área de memória associada a um nome, que pode armazenar valores de um determinado tipo.
+Ex: Guardar um nome de uma pessoa
+ 
+*Declarar uma variável em Java:
+ <tipo> <nome da variável>;
+ <tipo> <nome da variável> = <valor>; 
+
+*Convenção Nomenclatura
+ Regras a serem seguidas; Boas Práticas;
+  a-z A-Z_& 0_9
+  camelCase, normalmente começa com letraMinúscula ex: taynaRodriguesDoNascimento
+
+*Tipos Primitivos
+
+int-> números inteiros-> <8 byte>; <16 short>; <32 int>; <64 long>; 
+char na Tabela ASCII -> char o = 111; 
+-4;-10;100
+Ponto Flutuante:float-> números fracionários....que possuem vírgulas ex: <4.88> e <double: 64 bits>
+char-> possuem letras char = 'o';
+boolean-> valores de verdadeiros ou falsos: true ou false
+literais-> Hexadecimais, Octais,Binários
+undescore_ exemplo: int x4 = 0_x52;
+
+Escapes para formatação
+\t -> tab
+\n -> nova linha
+\r -> retorno de carro
+
+***CURIOSIDADE
+Os números no Java funcionam igual a uma roleta:
+-> Do momento que pega o limite e soma com algum outro numero, ele irá voltar para os números negativos, 
+	tanto para byte; short; int; long ou seja, para qualquer tipo inteiro no Java.
+
+
+
+
+
+
+
+
+
+
