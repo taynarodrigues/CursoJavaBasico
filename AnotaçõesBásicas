@@ -69,6 +69,26 @@ Os números no Java funcionam igual a uma roleta:
 	tanto para byte; short; int; long ou seja, para qualquer tipo inteiro no Java.
 
 
+*Lendo dados usando a classe Scanner
+     Scanner scan = new Scanner(System.in);
+ Antes da declaração da classe-> Fazer o import no Java.
+*Lendo uma linha inteira
+     String nome = scan.nextLine();
+nextLine-> Ler tudo
+next-> Ler o que tiver colocado, e retorna uma string
+nextInt->Ler um inteiro
+
+*Operadores
+-> Símbolos que solicitam ao compilador realizar alguma operação
+
+Introdução OO:
+*Uma Classe é uma declaração, é uma definição de uma entidade de um OBJETO onde os seus atributos são as suas características.
+As ações de uma classe seriam os métodos.
+*A declaração de OBJETOS sendo: A definição de uma entidade,
+onde essa entidade tem características que são os atributos e pode executar ações que seriam os métodos
+*Atributos->De um carro->características-> cor; marca; modelo; numero passageiros; consumo combustível.
+
+
 
 
 
