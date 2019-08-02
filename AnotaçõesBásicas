@@ -89,6 +89,14 @@ onde essa entidade tem características que são os atributos e pode executar a�
 *Atributos->De um carro->características-> cor; marca; modelo; numero passageiros; consumo combustível.
 
 
+*Métodos simples e sem retorno utilizamos a palavra VOID no inicio, nome do método <verbo>
+Abrir e fechar parenteses e colocar o bloco de códigos com a lógica de programção.
+*Método com retorno-> utilizar o tipo de dados que irá retornar no final do bloco de código do método e por fim
+a palvra chave RETURN que é uma ação para poder o método retornar
+*Métodos com Parâmetros-> declarar uma informação que não está disponível na classe
+
+
+
 
 
 
